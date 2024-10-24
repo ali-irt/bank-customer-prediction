@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-import tensorflow.keras as keras
+import keras
 
 from keras.models import load_model
  
