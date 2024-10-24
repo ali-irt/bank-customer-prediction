@@ -3,7 +3,7 @@ import streamlit as st
 from keras.models import load_model
 
 # Load the trained model
-model = load_model('model.h5')  # Ensure your Keras model is saved as 'model.h5'
+model = load_model('BankExit.h5')  # Ensure your Keras model is saved as 'model.h5'
 
 # Streamlit input fields
 st.title("Customer Prediction Model")
