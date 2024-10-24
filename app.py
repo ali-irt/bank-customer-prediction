@@ -7,7 +7,7 @@ import keras
 
 from keras.models import load_model
  
-model = load_model('/content/BankExit.h5')
+model = load_model('BankExit.h5')
 a=[0,0,0,0,0,0,0,0,0,0]
 credit = st.number_input('Credit Score')
 geo = st.number_input('0:france 1:spain 2:germany')
