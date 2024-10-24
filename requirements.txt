@@ -1,6 +1,7 @@
-streamlit
-sklearn
 tensorflow
-keras
+
 pandas
 numpy
+streamlit==1.39.0
+scikit-learn
+keras
