@@ -30,5 +30,10 @@ a[7]=card
 a[8]=act
 a[9]=sal
  
-output = model.predict([0])
-st.write('output ',output)
+input_data = np.array([[0]])  # Change this based on your actual input requirements
+
+# Make a prediction
+output = model.predict(input_data)
+
+# Display the output in Streamlit
+st.write('Output:', output)
