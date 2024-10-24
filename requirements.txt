@@ -2,5 +2,5 @@ streamlit
 sklearn
 tensorflow
 keras
-keras.models
 pandas
+numpy
