@@ -10,8 +10,6 @@ Original file is located at
 import numpy as np
 import pandas as pd
 
-!pip install -q streamlit
-
 """CustomerId	Surname	CreditScore	Geography	Gender	Age	Tenure	Balance	NumOfProducts	HasCrCard	IsActiveMember	EstimatedSalary	Exited
 
 """
@@ -49,8 +47,6 @@ import keras
 # 
 # output = model.predict([0])
 # st.write('output ',output)
-
-!pip install localtunnel
 
 !streamlit run /content/app.py &>/content/logs.txt&
 
